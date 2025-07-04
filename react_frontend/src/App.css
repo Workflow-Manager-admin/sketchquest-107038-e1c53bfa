@@ -1,15 +1,28 @@
 /* COLOR PALETTE & BASE */
+/* GOOGLE FONTS: Poppins, Nunito, Fredoka, Inter, Open Sans, Quicksand, Bungee, Press Start 2P */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Poppins:wght@600;900&family=Fredoka:wght@700&family=Inter:wght@400;700&family=Open+Sans:wght@400;700&family=Quicksand:wght@400;700&family=Bungee&family=Press+Start+2P&display=swap');
+
 :root {
-  --primary: #1abc9c;
-  --secondary: #ffffff;
-  --accent: #080707;
-  --header-bg: var(--primary);
-  --modal-bg: rgba(24, 24, 24, 0.95);
-  --card-shadow: 0 4px 14px rgba(26, 188, 156, 0.09), 0 1.5px 7px 0 rgba(0,0,0,0.045);
-  --text-main: var(--accent);
-  --text-light: #f8f8f8;
-  --card-radius: 1.1rem;
+  /* Main Soft Pastel Gradient Background -- playful, minimal */
+  --background-gradient: linear-gradient(124deg, #f6fff9 0%, #e4f0ff 100%);
+  --background: #f8f8fc;
+  --primary: #4e73df;
+  --primary-light: #e7effd;
+  --primary-dark: #1b3788;
+  --highlight-yellow: #fbbf24;
+  --accent-pink: #ff6b81;
+  --accent-green: #10b981;
+  --accent-violet: #6366f1;
+  --card-bg: #ffffff;
+  /* Elevations and Effects */
+  --card-shadow: 0 4px 19px 0 #b7e6ffd1, 0 1.5px 7px 0 #bfc5fa41;
+  --pulse: 0 0 0 0 #ffefbc;
+  --text-main: #283248;
+  --text-soft: #506468;
+  --text-light: #fff;
+  --card-radius: 1.2rem;
   --transition: 0.23s cubic-bezier(.44,1.7,.5,.77);
+  --border-highlight: 2.2px solid #ffd670;
 }
 
 body {
